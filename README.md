@@ -8,5 +8,5 @@ Second,
 > class-level augmentation module (CAM): best mIoU may be roughly obtained at 17 epochs in GTAV
 
 Therefore, please divide the learning process by  
-epoch 1~8: train IAM<br>
-epoch 9~20: train CAM<br>
+epoch 1~8: train IAM <br>
+epoch 9~20: train CAM <br>
