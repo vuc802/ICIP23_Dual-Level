@@ -1,0 +1,8 @@
+wandb
+tensorboardX
+scikit-learn
+scikit-image
+tqdm
+ipdb
+matplotlib
+opencv-python
