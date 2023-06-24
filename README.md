@@ -10,7 +10,6 @@ Second,
 Therefore, please divide the learning process by  
 epoch 1~8: train IAM
 
-
 epoch 9~20: train CAM
 
 
