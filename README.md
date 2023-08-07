@@ -1,5 +1,11 @@
-# Dual-Level
+# Single-Domain Generalization for Semantic Segmentation via Dual-Level Domain Augmentation (Dual-Level)
+The paper has been accepted for presentation at IEEE ICIP 2023.
 
+## Overview
+In this paper, we propose a dual-level augmentation method to explicitly enrich the domain diversity from the perspective of image- and class-level style augmentation. First, to enrich the image-level domain diversity, we propose an Image-Level Augmentation Module (IAM) via the learnable but doubly-constrained AdaIN. Second, to enlarge per-class styles, we propose a Class-Level Augmentation Module (CAM) to dynamically adapt the class-level style in terms of the per-class batch statistics. Next, we propose a domain-generalized feature learning and leverage a pre-trained image-classification model with a two-fold goal: to learn feature representation which generalizes well to both the source and the augmented domains, and to enforce the features compliant with the distilled semantics from the pre-trained model.
+
+
+## Training
 To stabilize the training process, we train  
 First, 
 > image-level augmentation module (IAM): best mIoU may be roughly obtained at 8 epochs in GTAV  
