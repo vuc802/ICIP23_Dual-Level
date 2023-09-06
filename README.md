@@ -6,12 +6,12 @@ In this paper, we propose a dual-level augmentation method to explicitly enrich 
 
 
 ## Training
-To stabilize the training process, please divide the learning process by  
+To stabilize the training process, please divide the learning process into  
 epoch 1 ~ 8: train IAM <br>
 epoch 9 ~ 20: train CAM <br>
 
-We provide two pre-trained models, please load the path in args.snapshot if you want  
+We provide two pre-trained models, please load the path in args.snapshot  
 IAM  https://drive.google.com/file/d/1OWc7ktIvycLniDRWON35NCNhQ_BlQfxV/view?usp=drive_link
 
-CAM (final ver)
+CAM (can obtain the final result and qualitative visualization in the paper)
 https://drive.google.com/file/d/1Xw9A7JUp-17WKHwINfJokormY6bgYzvX/view?usp=sharing
